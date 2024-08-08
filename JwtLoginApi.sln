@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtLoginApi", "JwtLoginApi\JwtLoginApi.csproj", "{886E6B2C-FFD9-45A8-9D88-C142C8BF1600}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{27E72E7C-F668-493E-8FB4-684F45F8FFC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtLoginAp.Entities", "JwtLoginAp.Entities\JwtLoginAp.Entities.csproj", "{E8A483AC-F646-49AC-AA1C-D1F484680DB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{886E6B2C-FFD9-45A8-9D88-C142C8BF1600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886E6B2C-FFD9-45A8-9D88-C142C8BF1600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886E6B2C-FFD9-45A8-9D88-C142C8BF1600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886E6B2C-FFD9-45A8-9D88-C142C8BF1600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A483AC-F646-49AC-AA1C-D1F484680DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A483AC-F646-49AC-AA1C-D1F484680DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A483AC-F646-49AC-AA1C-D1F484680DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A483AC-F646-49AC-AA1C-D1F484680DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8A483AC-F646-49AC-AA1C-D1F484680DB5} = {27E72E7C-F668-493E-8FB4-684F45F8FFC6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02AE3F93-B6FE-46EF-BF05-58DC9493CBFB}
+	EndGlobalSection
+EndGlobal
